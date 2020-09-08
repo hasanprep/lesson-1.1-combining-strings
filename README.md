@@ -11,11 +11,13 @@
 
 ## String Concatenation
 
-To combine two strings in Python, the concatenation operator (`+`) is used. The `+` operator may look like an addition sign, and in fact it behaves like one with numeric data types. With the data type `str` or strings, the `+` operator combines them. 
+Combining strings in Python is often called __string concatenation__ where the verb is __concatenate__. If you look for a definition of concatenate [here](https://www.lexico.com/en/definition/concatenate) or [here](https://www.merriam-webster.com/dictionary/concatenate), the definitions reference linking things together.
+
+ youTo combine two strings in Python, the concatenation operator (`+`) is used. The `+` operator may look like an addition sign, and in fact it behaves like one with numeric data types. With the data type `str` or strings, the `+` operator combines them. 
 
 To combine two strings , simply add `+` between the strings you want to concatenate. Try the code below __Example 1__ in the REPL:
 
-### Example 1
+#### Example 1
 
 ```python
 print('Bob' + 'Ross')
@@ -29,7 +31,7 @@ BobRoss
 
 Notice that __Python did not add whitespace between the strings__. To actually have a space between `'Bob'` and `'Ross'` , a `' '`it must be concatenated  between the two strings. Try the code below __Example 2__ in the REPL:
 
-### Example 2
+#### Example 2
 
 ```python
 print('Bob' + ' ' + 'Ross')
@@ -43,7 +45,7 @@ Bob Ross
 
 The same behavior is consistent with variables that point to string values. Try the code below __Example 3__ in the REPL:
 
-### Example 3
+#### Example 3
 
 ```python
 first_name = 'Bob'
@@ -60,7 +62,7 @@ BobRoss
 
 Just like the output of __Example 1__,  the two strings are run together without a space. A space must be concatenated between the two strings. Try the code below __Example 4__ in the REPL:
 
-### Example 4
+#### Example 4
 
 ```python
 first_name = 'Bob'
@@ -79,7 +81,7 @@ Just as in the output of __Example 2__, the space is added between the strings f
 
 
 
-### Example 5
+#### Example 5
 
 ```python
 food1 = 'pizza'
@@ -95,7 +97,7 @@ My favorite foods arepizza,sushi, andtacos.
 
 
 
-### Example 6
+#### Example 6
 
 ```python
 food1 = 'pizza'
@@ -115,7 +117,7 @@ My favorite foods are pizza, sushi, and tacos.
 
 
 
-### Example 8
+#### Example 8
 
 ```python
 food1 = 'pizza'
@@ -136,7 +138,7 @@ My favorite foods are pizza, sushi, and tacos.
 
 
 
-### Example 7
+#### Example 9
 
 ```python
 food1 = 'pizza'
@@ -190,3 +192,14 @@ Recreate the same program using three variables `name`, `occupation`, and `place
 Recreate the same program using one variable `person` where:
 
 - `person` is a concatenation of the whole sentence.
+
+
+
+# Useful Links:
+
+[![IMAGE ALT TEXT](http://img.youtube.com/vi/de7tDgQSUck/0.jpg)](https://youtu.be/de7tDgQSUck "Master Code Online: String Concatenation In Python")
+
+
+
+[w3schools.com: Python String Concatenation](https://www.w3schools.com/python/gloss_python_string_concatenation.asp)
+
