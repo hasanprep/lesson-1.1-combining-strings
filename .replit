@@ -1,2 +1,2 @@
 language = "bash"
-run = "combining_strings.py"
+run = "python combining_strings.py"
